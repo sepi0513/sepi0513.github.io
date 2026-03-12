@@ -41,3 +41,8 @@ a {
 .hero {
   background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
 }
+
+.btn-dark {
+  border-radius: 10px;
+  padding: 12px 26px;
+}
