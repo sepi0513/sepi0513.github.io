@@ -30,3 +30,7 @@ a {
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   transition: 0.2s;
 }
+
+.hero {
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
