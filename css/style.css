@@ -1,13 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 40px;
   line-height: 1.6;
 }
 
-nav {
-  font-weight: bold;
+.navbar {
+  font-weight: 500;
 }
 
 h1 {
@@ -22,25 +19,14 @@ a {
   text-decoration: none;
   color: #0077cc;
 }
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  gap: 20px;
-}
 
 .card-img-top{
-height:200px;
-object-fit:cover;
+  height:200px;
+  object-fit:cover;
 }
 
-.project-card {
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 10px;
-  transition: 0.2s;
-}
-
-.project-card:hover {
+.card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.2s;
 }
