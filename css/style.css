@@ -28,6 +28,11 @@ a {
   gap: 20px;
 }
 
+.card-img-top{
+height:200px;
+object-fit:cover;
+}
+
 .project-card {
   border: 1px solid #ddd;
   padding: 20px;
