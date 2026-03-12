@@ -28,10 +28,14 @@ a {
   object-fit:cover;
 }
 
+.card {
+  border: none;
+  transition: all 0.25s ease;
+}
+
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  transition: 0.2s;
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
 .hero {
